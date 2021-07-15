@@ -1,0 +1,38 @@
+#timeLine {
+  height: 100px;
+  width: 500px;
+  overflow: hidden;
+  position: relative;
+
+
+  .content {
+    overflow: hidden;
+    position: absolute;
+    width: 1600px;
+    top: 0;
+    left: 0;
+    font-size: 0;
+
+    span {
+      width: 100px;
+      display: inline-block;
+      font-size: 20px;
+      height: 100px;
+      background: #1890ff;
+
+    }
+  }
+
+  .pointer {
+    background: red;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+    
+
+  }
+}
